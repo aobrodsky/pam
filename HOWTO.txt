@@ -1,0 +1,23 @@
+1. ssh into bluenose using 
+     a. ssh on your Mac or
+        - open a Terminal window
+        - use the command:
+            ssh csid@bluenose.cs.dal.ca
+          where csid is your csid
+     b. An ssh client like Putty on Windows
+        - Use Google to find a client
+        - Parameters:
+            Hostname: bluenose.cs.dal.ca
+            User: csid (your csid)
+            Password: your csid password
+      See https://csid.cs.dal.ca to get your csid
+
+2.  Once you are logged into bluenose, grab the source from 
+    github using the command:
+      git clone https://github.com/aobrodsky/pam.git
+
+3.  Change to the pam directory:
+      cd pam
+
+4.  Start at Step 6 in the README.txt file.
+      
